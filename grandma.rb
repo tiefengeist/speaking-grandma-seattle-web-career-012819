@@ -7,12 +7,12 @@ def speak_to_grandma(phrase)
       return "I LOVE YOU TOO PUMPKIN!"
     # If you shout, she can hear you (or at least she thinks so)
     # and yells back
-    return phrase != phrase.upcase
-  		print "HUH?! SPEAK UP, SONNY!"
-    return phrase != phrase.upcase
-      print "HUH?! SPEAK UP, SONNY!"
-    return phrase == phrase.upcase
-      print "NO, NOT SINCE 1938!"
+    elsif phrase != phrase.upcase
+  		return "HUH?! SPEAK UP, SONNY!"
+    elsif phrase != phrase.upcase
+      return "HUH?! SPEAK UP, SONNY!"
+    elsif phrase == phrase.upcase
+      return "NO, NOT SINCE 1938!"
     # NO, NOT SINCE 1938!
     else
   		return "NO, NOT SINCE 1938!"
